@@ -25,4 +25,10 @@
 #### Make sure you have the following installed:
 - <strong>Python</strong> (Recommended: Latest version)
 - MySQL Server
-- Clone the Repositor
+
+
+### Clone the Repositor
+
+```sh
+git clone https://github.com/your-username/repository-name.git
+cd repository-name
