@@ -38,3 +38,35 @@ cd repository-name
 ```bash
 pip install mysql-connector-python pillow
 ```
+
+## Database Setup
+
+### 1. Open MySQL and create a database:
+```bash
+CREATE DATABASE login_sign;
+```
+### 2. Select the database and create the required table:
+
+```bash
+USE login_sign;
+CREATE TABLE login_sign (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    firstIn VARCHAR(50),
+    lastIn VARCHAR(50),
+    userIn VARCHAR(50) UNIQUE,
+    passIn VARCHAR(255)
+);
+```
+### 3,. Update database connection details (host, user, password) in connectDatabase() function inside the Python script.
+
+
+
+## Contribution
+
+### If you want to contribute:
+
+1. Fork the repository
+2. Create a new branch (git checkout -b feature-branch)
+3. Commit your changes (git commit -m "Added new feature")
+4. Push to the branch (git push origin feature-branch)
+5. Open a Pull Request
