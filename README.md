@@ -16,3 +16,13 @@
 - Python (Tkinter for GUI, MySQL Connector for database handling)
 - MySQL (For user authentication and data storage)
 - PIL (Pillow) (For handling images in the UI)
+
+
+## Installation & Setup
+
+### Prerequisites
+
+#### Make sure you have the following installed:
+- <strong>Python</strong> (Recommended: Latest version)
+- MySQL Server
+- Clone the Repositor
