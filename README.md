@@ -32,6 +32,9 @@
 ```sh
 git clone https://github.com/your-username/repository-name.git
 cd repository-name
-
- 
+``` 
 ## Install Required Packages
+
+```bash
+pip install mysql-connector-python pillow
+```
