@@ -27,8 +27,11 @@
 - MySQL Server
 
 
-### Clone the Repositor
+## Clone the Repositor
 
 ```sh
 git clone https://github.com/your-username/repository-name.git
 cd repository-name
+
+ 
+## Install Required Packages
